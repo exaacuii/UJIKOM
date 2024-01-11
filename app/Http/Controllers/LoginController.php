@@ -10,6 +10,15 @@ use illuminate\Support\Facades\Auth;
 class LoginController extends Controller
 {
     function login(){
-        return view('home');
+        return view('login');
+    }
+
+    function proses_login(request $request){
+        $data = $request->only('username','password');
+        if(auth::attempt($data)){
+            return redirect('/home');
+        }else{
+            return redirect('/login');
+        }
     }
 }

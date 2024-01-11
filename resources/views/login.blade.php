@@ -48,9 +48,6 @@ background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 
               <div>
               <button class="btn btn-outline-light btn-lg px-5" type="submit">Login</button>
               </div>
-  
-              <p class="small mb-5 pb-lg-2"><a class="text-white-50" href="{{('login')}}}}">Petugas?</a></p>
-              <p class="small mb-5 pb-lg-2"><a class="text-white-50" href="{{('login_masyarakat')}}">Masyarakat?</a></p>
               
 
               <div class="d-flex justify-content-center text-center mt-4 pt-1">
